@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/open-sans-v28-latin-regular.woff2') format('woff2'),
+       url('../fonts/open-sans-v28-latin-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/open-sans-v28-latin-600.woff2') format('woff2'),
+       url('../fonts/open-sans-v28-latin-600.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/open-sans-v28-latin-800.woff2') format('woff2'),
+       url('../fonts/open-sans-v28-latin-800.woff') format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family:  "Open Sans";
+  background-color: #F7CD75FF;
+}
+
+.container {
+  width: 840px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.inner {
+  display: flex;
+}
+
+.wallet {
+  width: 300px;
+  height: 450px;
+  padding-bottom: 30px;
+  overflow-y: scroll;
+  background-color: #F2F2F2FF;
+}
+
+.box-1 {
+  padding-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.card {
+  width: 220px;
+  height: 120px;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid #DEDEDEFF;
+  background-color: #fff;  
+}
+
+
+
+.balance {
+  width: 500px;
+  height: 450px;
+  overflow-y: scroll;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+
+.balance_box-1 {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.balance_box {
+  width: 420px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balance_box-title {
+  font-weight: normal;
+}
+
+.balans_box-span {
+  font-family: "Open Sans";
+  font-size: 25px;
+  font-weight: bold;
+  color: #333333FF;
+}
+
+.line {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.round {
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  background: #DFDFDFFF;
+}
+
+.box_text {
+  margin-right: 50px;
+}
+
+.balance_title-1 {
+  margin: 0;
+  padding: 0;
+  font-weight: bolder;
+}
+
+.balance_title-2 {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: normal;
+  color: #D1D1D1FF;
+}
+
+.box_span {
+  font-weight: bold;
+  color: #8797C6FF;
+}
+
+.box_text-2{
+  margin-right: 93px;
+}
+
+.box_span-2 {
+  color: #8ACE5EFF;
+}
+
+.right {
+  margin-right: 90px;
+
+}
